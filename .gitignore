@@ -15,3 +15,14 @@ jsconfig.json
 hugo_stats.json
 go.sum
 yarn.lock
+
+# Python Virtual Environment
+venv/
+env/
+.env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
