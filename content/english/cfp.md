@@ -1,3 +1,10 @@
+---
+title: "Call for papers"
+meta_title: "cfp"
+description: "this is meta description"
+image: "/images/avatar.png"
+draft: false
+---
 
 ## Workshop Scope
 
@@ -57,9 +64,6 @@ Page limits include references. Optional appendices (e.g., instruments, algorith
 | Workshop date | 27 April 2026 — Bergen, Norway (exact day TBA) |
 
 _All submission deadlines are 23:59 AoE time._
-
-
-## Review & Presentation
 
 ## Review & Presentation
 
