@@ -18,13 +18,13 @@ weight = 3
 [[main]]
 parent = "Instructions"
 name = "Submission"
-url = "/submission"
+url = "/instructions/submission"
 weight = 1
 
 [[main]]
 parent = "Instructions"
 name = "Review guidelines"
-url = "/review_guidelines"
+url = "/instructions/review_guidelines"
 weight = 2
 
 [[main]]
