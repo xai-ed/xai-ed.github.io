@@ -39,7 +39,7 @@ weight = 5
 
 [[main]]
 name = "Organizers"
-url = "/authors"
+url = "/organizers"
 weight = 6
 
 # footer menu
