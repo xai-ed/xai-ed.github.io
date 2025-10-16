@@ -28,7 +28,7 @@ features:
 
 
   - title: "Expected Outcomes"
-    image: "/images/service-2.png"
+    image: "/images/service-4.png"
     content: "XAI-Ed 2026 aims to help advocate supporting learning analytics with a transparent, participatory, and ethically grounded practice, one that delivers not only accurate predictions but also actionable, explainable, and equitable insights that strengthen learner and educator agency. By the end of the workshop, participants will have:"
     bulletpoints:
       - "A shared understanding of current challenges and opportunities in XAI and XLA."
