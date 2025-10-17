@@ -1,7 +1,7 @@
 ---
 title: Jeroen Ooge
 email: j.ooge@uu.nl
-image: "/images/jeroen.png"
+image: "/images/jeroen.jpg"
 description: this is meta description
 social:
 
