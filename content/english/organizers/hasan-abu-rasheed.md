@@ -9,6 +9,22 @@ social:
     icon: fa-brands fa-google-scholar
     link: https://scholar.google.com/citations?user=EiiNWTcAAAAJ&hl=en
 
+  - name: orcid
+    icon: fa-brands fa-orcid
+    link: 
+
+  - name: e-mail
+    icon: fa-solid fa-envelope
+    link: 
+
+  - name: institution
+    icon: fa-solid fa-building-columns
+    link: 
+  
+  - name: personal webpage
+    icon: fa-solid fa-globe
+    link: 
+
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://linkedin.com/in/hasan-abu-rasheed/
