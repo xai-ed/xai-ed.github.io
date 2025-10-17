@@ -3,6 +3,7 @@ title: Jakub Kuzilek
 email: jakub.kuzilek@fernuni-hagen.de
 image: "/images/jakub.png"
 description: this is meta description
+weight: 2
 social:
   - name: github
     icon: fa-brands fa-github

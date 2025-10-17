@@ -1,11 +1,21 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
-
   <section class="section">
     <div class="container">
       <div class="row">
-        {{ range .RegularPages }}
+        {{ $withWeight := where .RegularPages ".Params.weight" "!=" nil }}
+        {{ $withoutWeight := where .RegularPages ".Params.weight" "==" nil }}
+
+        {{ $withSorted := sort $withWeight "Weight" "asc" }}
+        {{ range $withSorted }}
+          <div class="md:col-6 lg:col-4 mb-14">
+            {{ partial "components/author-card" . }}
+          </div>
+        {{ end }}
+
+        {{ $withoutSorted := sort $withoutWeight "Title" "asc" }}
+        {{ range $withoutSorted }}
           <div class="md:col-6 lg:col-4 mb-14">
             {{ partial "components/author-card" . }}
           </div>

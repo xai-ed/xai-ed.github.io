@@ -3,6 +3,7 @@ title: Hasan Abu-Rasheed
 email: rasheed@sd.uni-frankfurt.de
 image: "/images/Hasan_Abu_Rasheed.png"
 description: this is meta description
+weight: 1
 social:
 
   - name: scholar
