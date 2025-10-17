@@ -6,7 +6,7 @@ description: this is meta description
 social:
   - name: github
     icon: fa-brands fa-github
-    link: 
+    link: https://github.com/sophielqh
 
   - name: scholar
     icon: fa-brands fa-google-scholar
