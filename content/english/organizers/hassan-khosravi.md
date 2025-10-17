@@ -1,7 +1,7 @@
 ---
 title: Hassan Khosravi
 email: h.khosravi@uq.edu.au
-image: "/images/Hassan_Khosravi.png"
+image: "/images/Hassan_Khosravi.jpeg"
 description: this is meta description
 social:
 

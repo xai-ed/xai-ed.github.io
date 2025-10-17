@@ -1,7 +1,7 @@
 ---
 title: Mutlu Cukurova
 email: m.cukurova@ucl.ac.uk
-image: "/images/Mutlu_Cukurova.png"
+image: "/images/Mutlu_Cukurova.jpg"
 description: this is meta description
 social:
 
