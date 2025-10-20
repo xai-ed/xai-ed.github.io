@@ -1,7 +1,7 @@
 ---
 title: Tanja Käser
 email: tanja.kaeser@epfl.ch
-image: "/images/avatar.png"
+image: "/images/tanja.png"
 description: this is meta description
 social:
   - name: scholar
