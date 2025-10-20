@@ -1,7 +1,7 @@
 ---
 title: Lea Cohausz 
 email: lcohausz@mail.uni-mannheim.de
-image: "/images/avatar.png"
+image: "/images/lea.png"
 description: this is meta description
 social:
   - name: scholar
