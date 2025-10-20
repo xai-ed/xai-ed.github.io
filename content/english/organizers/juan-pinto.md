@@ -1,7 +1,7 @@
 ---
 title: Juan D. Pinto
 email: juan@jdpinto.com
-image: "/images/avatar.png"
+image: "/images/juan.png"
 description: this is meta description
 social:
   - name: github
