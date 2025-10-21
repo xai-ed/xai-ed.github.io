@@ -11,7 +11,7 @@ social:
 
   - name: personal webpage
     icon: fa-solid fa-globe
-    link: jeroenooge.be
+    link: https://www.jeroenooge.be
 
   - name: linkedin
     icon: fa-brands fa-linkedin
