@@ -9,6 +9,10 @@ social:
     icon: fa-brands fa-google-scholar
     link: https://scholar.google.com/citations?hl=en&user=Y4FYGP0AAAAJ
 
+  - name: personal webpage
+    icon: fa-solid fa-globe
+    link: jeroenooge.be
+
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/jeroen-ooge/

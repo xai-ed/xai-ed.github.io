@@ -9,6 +9,10 @@ social:
     icon: fa-brands fa-google-scholar
     link: https://scholar.google.com/citations?user=oBqRuY8AAAAJ&hl=en
 
+  - name: personal webpage
+    icon: fa-solid fa-globe
+    link: https://lucalongo.eu
+
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://www.linkedin.com/in/drlucalongo/

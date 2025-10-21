@@ -9,6 +9,10 @@ social:
     icon: fa-brands fa-google-scholar
     link: https://scholar.google.com/citations?user=Q68sSnMAAAAJ&hl=en
 
+  - name: personal webpage
+    icon: fa-solid fa-globe
+    link: https://www.eti.uni-siegen.de/migs
+
   - name: linkedin
     icon: fa-brands fa-linkedin
     link: https://de.linkedin.com/in/christian-weber-13a111bb 
