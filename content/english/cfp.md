@@ -59,9 +59,9 @@ Page limits include references. Optional appendices (e.g., instruments, algorith
 | Event | Date |
 |-------|------|
 | Paper submission deadline | 04 December 2025 |
-| Notifications | 20 December 2025 |
+| Notifications | 19 December 2025 |
 | Camera-ready due | TBA |
-| Workshop date | 27 April 2026 — Bergen, Norway (exact day TBA) |
+| Workshop date | 27 April 2026 — Bergen, Norway |
 
 _All submission deadlines are 23:59 AoE time._
 
@@ -91,6 +91,6 @@ Please note that workshop papers are **not** published as part of the LAK 2026 C
 ## Contact
 
 - **Submission and CfP (EasyChair):** [https://easychair.org/conferences/?conf=xaied2026](https://easychair.org/conferences/?conf=xaied2026)  
-- **General inquiries:** (workshop contact email)
+- **General inquiries:** rasheed@sd.uni-frankfurt.de
 
 ---
