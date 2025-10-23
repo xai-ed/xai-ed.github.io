@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "XAI-Ed 2026<br/>Demystifying AI in Education and Learning Analytics through Explainability, Agency, and Transparency"
-  content: "Third workshop on Explainable AI in Education, in  the 16th International Conference on Learning Analytics & Knowledge (LAK 2026), Bergen, Norway, 27 April-01 MAy 2026"
+  content: "Third workshop on Explainable AI in Education, in  the 16th International Conference on Learning Analytics & Knowledge (LAK 2026), Bergen, Norway, 27 April-01 May 2026"
   image: "/images/banner.png"
   button:
     enable: true
