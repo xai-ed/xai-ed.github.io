@@ -7,7 +7,7 @@ weight: 2
 social:
   - name: institution
     icon: fa-solid fa-building-columns
-    link: https://www.fernuni-hagen.de/forschung/schwerpunkte/catalpa/
+    link: https://www.fernuni-hagen.de/english/research/clusters/catalpa/
 
   - name: scholar
     icon: fa-brands fa-google-scholar
