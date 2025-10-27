@@ -4,9 +4,13 @@ email: tanja.kaeser@epfl.ch
 image: "/images/tanja.png"
 description: this is meta description
 social:
+  - name: github
+    icon: fa-brands fa-github
+    link: https://github.com/epfl-ml4ed
+
   - name: scholar
     icon: fa-brands fa-google-scholar
-    link: https://scholar.google.com/citations?user=Uexe7SkAAAAJ&hl=en&oi=ao
+    link: https://scholar.google.com/citations?user=Uexe7SkAAAAJ&hl=en
 
   - name: linkedin
     icon: fa-brands fa-linkedin
