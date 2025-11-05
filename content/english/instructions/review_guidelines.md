@@ -22,6 +22,8 @@ With these goals in mind, we request that all reviewers follow the review guidel
     - A thorough assessment of the submission’s main strengths and weaknesses in making a conceptual, technical, or empirical contribution to the study of human-centric explainable AI in education.
     - Where possible, suggestions for improvement should be given.
 - The following categories and questions are useful to consider in writing your review:
+    - **Scope:**
+        - Please be sure to review the scope of the [Call for Papers](/cfp) to ensure that each paper that you review is within the scope for XAI-Ed@LAK2026.
     - **Relevance:**
         - Is the submission trying to solve an important problem that is interesting and relevant for the study of explainable AI in education?
         - Does the submission attend to the real-world context, including issues of impact, fairness, and equity?
@@ -43,6 +45,7 @@ With these goals in mind, we request that all reviewers follow the review guidel
     - **Communication:**
         - Is the submission written clearly for understanding by an interdisciplinary audience?
 
+> The guidelines are adapted version of the LAK26 Reviewer Guidelines.
 
 ## Additional considerations
 
