@@ -7,7 +7,7 @@ description: "This is meta description"
 # save as draft
 draft: false
 ---
-We are committed to setting a high standard of quality and integrity for the HEXED review process. There are two main goals in reviewing:
+We are committed to setting a high standard of quality and integrity for the XAI-Ed review process. There are two main goals in reviewing:
 
 - To decide fairly whether each paper is worthy of acceptance; and
 - To provide the authors with feedback on how to improve the quality of their research and writing.
