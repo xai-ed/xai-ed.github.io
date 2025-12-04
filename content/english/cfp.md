@@ -52,9 +52,9 @@ Page limits include references. Optional appendices (e.g., instruments, algorith
 
 ## Formatting & Submission
 
-- All submissions should use the workshop’s template (Word or LaTeX), based on the **CEUR-WS proceedings template**.  
+- All submissions should be PDF file using the workshop’s template. An Overleaf project is available for LaTeX users <a href="https://www.overleaf.com/read/pzqqksjnzwdh#e538d9" target="_blank">**here**</a>. Simply make a copy of the project ("Menu" > "Copy Project"). Alternatively, you can download an offline version [**here**](/XAIEd2026_template.zip). This download also includes ODT (LibreOffice) and DOCX (Microsoft Word) template files.  
 - Submissions must be **anonymous** for double-blind review. Remove all author names and identifying information (e.g., grant numbers), and refer to prior work in the third person (e.g., “Previously, Smith et al. did … [1]” rather than “In our prior work [1]”).  
-- Submissions are to be made via **XAI-Ed 2026 Workshop on EasyChair**.  
+- Submissions are to be made via [**XAI-Ed 2026 Workshop on EasyChair**](https://easychair.org/conferences/?conf=xaied2026).  
 
 **Submission link:** [https://easychair.org/conferences/?conf=xaied2026](https://easychair.org/conferences/?conf=xaied2026)
 
