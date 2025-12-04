@@ -5,6 +5,11 @@ description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
+<div style="text-align: center;">
+  <div style="border: 2px solid black; padding: 10px; display: inline-block; font-size: 24px;">
+    <strong>Submission Deadline Extended to 18.12.2025!</strong>
+  </div>
+</div>
 
 ## Workshop Scope
 
