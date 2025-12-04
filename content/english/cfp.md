@@ -63,8 +63,8 @@ Page limits include references. Optional appendices (e.g., instruments, algorith
 
 | Event | Date |
 |-------|------|
-| Paper submission deadline | 04 December 2025 |
-| Notifications | 19 December 2025 |
+| Paper submission deadline | ~~04 December 2025~~ → **Extended: 18 December 2025** |
+| Notifications | ~~19 December 2025~~  → TBA |
 | Camera-ready due | TBA |
 | Workshop date | 27 April 2026 — Bergen, Norway |
 
