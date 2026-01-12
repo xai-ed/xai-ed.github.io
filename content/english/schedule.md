@@ -18,3 +18,9 @@ draft: false
 | **15:15–15:45** | **Coffee break** | — |
 | **15:45–16:30** | **Group activity: Group alignment and creating shared solution spaces (domain-specific and domain-agnostic)** | Group work |
 | **16:30–17:00** | **Open discussion, reflection, and closing thoughts** | Discussion |
+
+* preliminary schedule, will be updated soon
+
+## Accepted papers
+
+TBD
