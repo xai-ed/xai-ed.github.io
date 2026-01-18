@@ -23,4 +23,10 @@ draft: false
 
 ## Accepted papers
 
-TBD
+- Daniel Mora Melanchthon and Andrea  Horbach. **"How reliable is that explanation? Intrinsic Evaluation of XAI   methods in Automated Essay Scoring models"**
+- Rania Ait Chabane, Armelle Brun and Azim Roussanaly. **"Uncertainty-Aware Knowledge Tracing: Towards the Use of   Subjective Logic"**
+- Semyon Bosonogov, Alena Suvorova and Semyon Bosonogov. **"Problem of Overtrust in XAI Tools for Educational Data:   Analysis of LLM Interpretations"**
+- Reet Kasepalu, Kairit Tammets, Tobias Ley and Mutlu Cukurova. **"AI-Supported Educational Decision-Making: Aligning   Teacher Expertise Development and AI Teaming Levels"**
+- Grzegorz Meller, Cédric Kestens and Tinne De Laet. **"Layered Explainability for Advisor Support: A   Visual-Conversational Interface for Predictive Learning Analytics"**
+- Md Biplob Hosen, Houbing Herbert Song, Shuling Yang and Lujie Karen Chen. **"NeuroSymRead: Symbolic Governance of   Neural Generation for Adaptive Dialogic Reading"**
+- Mehar Ali, Awais Ilyas Baig, Utsaha   Joshi and Ekaterina Kuzmina. **"TransitionIQ: An Explainable Learning Analytics   Prototype for Cross-Discipline Transfer Readiness"**
