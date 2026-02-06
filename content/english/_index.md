@@ -13,10 +13,10 @@ banner:
       </div>
     </div>
   image: "/images/banner.png"
-  button:
-    enable: true
-    label: "Submit a Paper"
-    link: "https://easychair.org/conferences/?conf=xaied2026"
+  #button:
+  #  enable: true
+  #  label: "Submit a Paper"
+  #  link: "https://easychair.org/conferences/?conf=xaied2026"
 
 # Sections
 features:
