@@ -23,12 +23,12 @@ draft: false
 
 <div class="keynote-details">
 	<div class="keynote-details-media">
-		<img src="/images/benjamin_paassen.jpg" alt="Portrait of Jun. Prof. Benjamin Paaßen" loading="lazy" />
+		<img src="/images/benjamin_paassen.jpg" alt="Portrait of Prof. Dr. Benjamin Paaßen" loading="lazy" />
 		<p class="keynote-photo-credit">Foto-Credit: Susanne Freitag</p>
 	</div>
 	<div class="keynote-details-content">
 		<p class="keynote-details-label">Keynote Speaker</p>
-		<h3><a href="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=49941564" target="_blank" rel="noopener">Jun. Prof. Benjamin Paaßen</a></h3>
+		<h3><a href="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=49941564" target="_blank" rel="noopener">Prof. Dr. Benjamin Paaßen</a></h3>
 		<p class="keynote-details-affiliation">Bielefeld University</p>
 		<h4>From explainable to explaining systems - the role of social XAI in learning analytics and educational technology</h4>
 		<p>While explainable AI (XAI) has made substantial progress in the past decades, most explanations are limited to selecting the most important features to explain a classification decision. In education, explanatory needs are much richer: We need to diagnose a learners' (or educators') explanatory needs, adjust explanations to context (person, topic, and situation), and communicate explanations in a way that they are actionable for learners and teachers. This multi-step, dynamic paradigm of XAI has been dubbed social XAI (Rohlfing et al., 2020). The keynote will highlight research results to motivate the necessity of social XAI in learning analytics and educational technology, first steps in this direction, and open questions for future research.</p>

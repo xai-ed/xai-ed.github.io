@@ -9,10 +9,10 @@ banner:
     </div>
   keynote: |
     <div class="keynote-announcement" role="region" aria-label="Workshop keynote announcement">
-      <img src="/images/benjamin_paassen.jpg" alt="Portrait of Jun. Prof. Benjamin Paaßen" loading="lazy" />
+      <img src="/images/benjamin_paassen.jpg" alt="Portrait of Prof. Dr. Benjamin Paaßen" loading="lazy" />
       <div class="keynote-announcement-content">
         <p class="keynote-announcement-label">Keynote Speaker</p>
-        <h3>Jun. Prof. Benjamin Paaßen</h3>
+        <h3>Prof. Dr. Benjamin Paaßen</h3>
         <p class="keynote-announcement-university">Bielefeld University</p>
         <p class="keynote-announcement-title">From explainable to explaining systems - the role of social XAI in learning analytics and educational technology</p>
         <div class="keynote-announcement-cta">
