@@ -1,1 +1,129 @@
 /* Add your own custom styles here */
+
+.keynote-announcement {
+	margin: 1.5rem auto 0;
+	max-width: 800px;
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	gap: 1.4rem;
+	align-items: center;
+	background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+	border: 1px solid #bfd6ea;
+	border-radius: 16px;
+	padding: 1.3rem;
+	box-shadow: 0 14px 40px rgba(15, 23, 42, 0.12);
+	text-align: left;
+}
+
+.keynote-announcement img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 14px;
+}
+
+.keynote-announcement h3 {
+	margin: 0;
+	font-size: 1.6rem;
+	line-height: 1.22;
+}
+
+.keynote-announcement-label {
+	margin: 0 0 0.35rem;
+	color: #0c4a6e;
+	font-weight: 700;
+	font-size: 0.84rem;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+
+.keynote-announcement-university {
+	margin: 0.25rem 0 0.6rem;
+	font-size: 1rem;
+	color: #334155;
+	font-weight: 600;
+}
+
+.keynote-announcement-title {
+	margin: 0;
+	font-weight: 600;
+	font-size: 1.1rem;
+	line-height: 1.35;
+}
+
+.keynote-announcement-cta {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.keynote-details {
+	margin-top: 1.1rem;
+	border: 1px solid #d8dee8;
+	border-radius: 14px;
+	background: #f8fafc;
+	padding: 1.2rem;
+	display: grid;
+	grid-template-columns: 260px 1fr;
+	gap: 1.2rem;
+	align-items: start;
+}
+
+.keynote-details-media img {
+	width: 100%;
+	border-radius: 12px;
+	object-fit: cover;
+}
+
+.keynote-details-label {
+	margin: 0;
+	color: #0c4a6e;
+	font-weight: 700;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.keynote-details-content h3 {
+	margin: 0.25rem 0 0;
+}
+
+.keynote-details-affiliation {
+	margin: 0.25rem 0 0.8rem;
+	color: #475569;
+}
+
+.keynote-details-content h4 {
+	margin: 0.45rem 0;
+}
+
+.keynote-details-content h5 {
+	margin: 0.8rem 0 0.2rem;
+}
+
+@media (max-width: 767px) {
+	.keynote-announcement {
+		grid-template-columns: 1fr;
+		gap: 0.95rem;
+		text-align: center;
+		padding: 1rem;
+	}
+
+	.keynote-announcement img {
+		width: 170px;
+		height: 170px;
+		margin: 0 auto;
+	}
+
+	.keynote-announcement .btn {
+		width: 100%;
+	}
+
+	.keynote-details {
+		grid-template-columns: 1fr;
+	}
+
+	.keynote-details-media img {
+		max-width: 240px;
+		margin: 0 auto;
+	}
+}

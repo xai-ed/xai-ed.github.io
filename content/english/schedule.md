@@ -10,7 +10,7 @@ draft: false
 | **09:00–09:30** | **Welcome, Introduction to the workshop, and Introduction to XAI in education** | Presentation |
 | **09:30–10:15** | **Group activity: Framing problems and needs of XAI in education** | Group work |
 | **10:15–10:45** | **Coffee break** | — |
-| **10:45–11:30** | **Keynote presentation** | Presentation |
+| **10:45–11:30** | **[Keynote presentation](#keynote-details)** | Presentation |
 | **11:30–12:30** | **Accepted papers** | Poster-like session |
 | **12:30–13:30** | **Lunch** | — |
 | **13:30–14:30** | **Panel discussion** | Panel |
@@ -18,6 +18,23 @@ draft: false
 | **15:15–15:45** | **Coffee break** | — |
 | **15:45–16:30** | **Group activity: Group alignment and creating shared solution spaces (domain-specific and domain-agnostic)** | Group work |
 | **16:30–17:00** | **Open discussion, reflection, and closing thoughts** | Discussion |
+
+<h2 id="keynote-details">Keynote Details</h2>
+
+<div class="keynote-details">
+	<div class="keynote-details-media">
+		<img src="/images/benjamin_paassen.jpg" alt="Portrait of Jun. Prof. Benjamin Paaßen" loading="lazy" />
+	</div>
+	<div class="keynote-details-content">
+		<p class="keynote-details-label">Keynote Speaker</p>
+		<h3><a href="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=49941564" target="_blank" rel="noopener">Jun. Prof. Benjamin Paaßen</a></h3>
+		<p class="keynote-details-affiliation">Bielefeld University</p>
+		<h4>From explainable to explaining systems - the role of social XAI in learning analytics and educational technology</h4>
+		<p>While explainable AI (XAI) has made substantial progress in the past decades, most explanations are limited to selecting the most important features to explain a classification decision. In education, explanatory needs are much richer: We need to diagnose a learners' (or educators') explanatory needs, adjust explanations to context (person, topic, and situation), and communicate explanations in a way that they are actionable for learners and teachers. This multi-step, dynamic paradigm of XAI has been dubbed social XAI (Rohlfing et al., 2020). The keynote will highlight research results to motivate the necessity of social XAI in learning analytics and educational technology, first steps in this direction, and open questions for future research.</p>
+		<h5>Bio</h5>
+		<p>Benjamin Paaßen is junior professor for knowledge representation and machine learning at Bielefeld University. Their research focuses on interpretable, explainable, and domain-informed machine learning, especially for intelligent tutoring systems. As part of the large-scale research projects SAIL, KI-Akademie OWL, and the collaborative research center TRR318 "Constructing Explainability", they engage both in foundational research as well as science communication to explain opportunities as well as limitations of contemporary AI systems.</p>
+	</div>
+</div>
 
 * preliminary schedule, will be updated soon
 

@@ -4,12 +4,20 @@ banner:
   title: "XAI-Ed 2026<br/>Demystifying AI in Education and Learning Analytics through Explainability, Agency, and Transparency"
   content: |
     <div style="text-align: center; font-size: 18px; margin-bottom: 10px;">
-      Third workshop on Explainable AI in Education, in the 16th International Conference on Learning Analytics & Knowledge (LAK 2026), Bergen, Norway, 27 April 2026.
+      Third workshop on Explainable AI in Education, in the 16th International Conference on Learning Analytics & Knowledge (LAK 2026), Bergen, Norway<br/>
+      Monday 27 April 2026, 9:00 AM to 5:00 PM in person
     </div>
-
-    <div style="text-align: center;">
-      <div style="border: 2px solid black; padding: 10px; display: inline-block; font-size: 24px; margin-bottom: 15px;">
-        <strong>The workshop will take place on Monday 27 April 2026, 9:00 AM to 5:00 PM in person.</strong>
+  keynote: |
+    <div class="keynote-announcement" role="region" aria-label="Workshop keynote announcement">
+      <img src="/images/benjamin_paassen.jpg" alt="Portrait of Jun. Prof. Benjamin Paaßen" loading="lazy" />
+      <div class="keynote-announcement-content">
+        <p class="keynote-announcement-label">Keynote Speaker</p>
+        <h3>Jun. Prof. Benjamin Paaßen</h3>
+        <p class="keynote-announcement-university">Bielefeld University</p>
+        <p class="keynote-announcement-title">From explainable to explaining systems - the role of social XAI in learning analytics and educational technology</p>
+        <div class="keynote-announcement-cta">
+          <a href="/schedule/#keynote-details" class="btn btn-primary btn-sm">Full keynote information</a>
+        </div>
       </div>
     </div>
   image: "/images/banner.png"
