@@ -70,8 +70,16 @@
 
 .keynote-details-media img {
 	width: 100%;
+    margin-bottom: 0.5rem;
 	border-radius: 12px;
 	object-fit: cover;
+}
+
+.keynote-photo-credit {
+	margin: 0.0rem 0 0;
+	font-size: 0.82rem;
+	color: #64748b;
+	text-align: left;
 }
 
 .keynote-details-label {

@@ -24,6 +24,7 @@ draft: false
 <div class="keynote-details">
 	<div class="keynote-details-media">
 		<img src="/images/benjamin_paassen.jpg" alt="Portrait of Jun. Prof. Benjamin Paaßen" loading="lazy" />
+		<p class="keynote-photo-credit">Foto-Credit: Susanne Freitag</p>
 	</div>
 	<div class="keynote-details-content">
 		<p class="keynote-details-label">Keynote Speaker</p>

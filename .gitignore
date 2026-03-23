@@ -26,3 +26,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Local keynote promo assets
+Keynote/
