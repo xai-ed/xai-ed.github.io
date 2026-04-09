@@ -8,7 +8,7 @@ draft: false
 | Time Slot | Activity | Type |
 |------------|-----------|------|
 | **09:00–09:30** | **Welcome, Introduction to the workshop, and Introduction to XAI in education** | Presentation |
-| **09:30-10:30** | **[Keynote presentation](#keynote-details)** | Presentation |
+| **09:30–10:30** | **[Keynote presentation](#keynote-details)** | Presentation |
 | **10:30–11:00** | **Coffee break** | - |
 | **11:00–11:45** | **Group activity: Framing problems and needs of XAI in education** | Group work |
 | **11:45-12:30** | **Accepted papers** | Poster-like session | 
