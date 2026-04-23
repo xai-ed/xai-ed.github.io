@@ -37,8 +37,6 @@ draft: false
 	</div>
 </div>
 
-* preliminary schedule, will be updated soon
-
 ## Accepted papers
 
 - Daniel Mora Melanchthon and Andrea  Horbach. **"How reliable is that explanation? Intrinsic Evaluation of XAI   methods in Automated Essay Scoring models"**
