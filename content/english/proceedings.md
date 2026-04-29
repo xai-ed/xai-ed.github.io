@@ -17,6 +17,6 @@ Reet Kasepalu, Kairit Tammets, Tobias Ley and Mutlu Cukurova. **"AI-Supported Ed
 
 Grzegorz Meller, Cédric Kestens and Tinne De Laet. **"Layered Explainability for Advisor Support: A   Visual-Conversational Interface for Predictive Learning Analytics"** [paper](/papers/XAI-Ed_2026_paper_13.pdf)
 
-<!-- - Md Biplob Hosen, Houbing Herbert Song, Shuling Yang and Lujie Karen Chen. **"NeuroSymRead: Symbolic Governance of   Neural Generation for Adaptive Dialogic Reading"** [paper](/papers/XAI-Ed_2026_paper_14.pdf)-->
+Md Biplob Hosen, Houbing Herbert Song, Shuling Yang and Lujie Karen Chen. **"NeuroSymRead: Symbolic Governance of   Neural Generation for Adaptive Dialogic Reading"** [paper](/papers/XAI-Ed_2026_paper_14.pdf)
 
 Mehar Ali, Awais Ilyas Baig, Utsaha   Joshi and Ekaterina Kuzmina. **"TransitionIQ: An Explainable Learning Analytics   Prototype for Cross-Discipline Transfer Readiness"** [paper](/papers/XAI-Ed_2026_paper_1.pdf)
