@@ -2,8 +2,8 @@
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/favicon.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "" # images/logo.png
-logo_darkmode = "" # images/logo-dark.png
+logo = "images/logo.png"
+logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
@@ -11,7 +11,7 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "XAI-Ed 2026"
+logo_text = "Hugoplate"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -37,9 +37,21 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "Submit A Paper"
-link = "https://easychair.org/conferences/?conf=xaied2026"
+enable = true
+label = "Github"
+link = "https://github.com/zeon-studio/hugoplate"
+
+# LLMs Configuration
+# LLMs module: https://github.com/gethugothemes/hugo-modules/tree/master/llms-txt
+[llms]
+# Set to false to disable /llms.txt generation
+generate_llms_txt = true
+# Set to false to disable /llms-full.txt generation
+generate_llms_full_txt = true
+# Limit to specific paths (e.g. "/about/", "/blog/*", "/blog/**"). Empty = all pages.
+include = []
+# Exclude specific paths (same wildcard formats as include). Include takes priority on conflicts.
+exclude = []
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
@@ -55,9 +67,9 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = false
+enable = true
 expire_days = 7
-content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
+content = "<span class='text-center block'>🚧 This site is under reconstruction — content coming soon. 🚧</span>"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
@@ -110,3 +122,9 @@ enable = false
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+
+# OpenRemark Comments
+[open_remark]
+enable = true
+site_key = "cmq51sse6000504l2761vcywi"                 # your site key from the OpenRemark dashboard
+embed_url = "https://open-remark.zeon.studio/embed.js" # OpenRemark embed.js URL | Make sure it didn't change

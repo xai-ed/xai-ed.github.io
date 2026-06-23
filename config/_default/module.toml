@@ -1,9 +1,13 @@
 [hugoVersion]
 extended = true
-min = "0.144.0"
+min = "0.158.0"
+max = "0.165.0"
 
 # [[imports]]
 # path = "github.com/zeon-studio/hugoplate"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/llms-txt"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/search"
@@ -75,6 +79,9 @@ path = "github.com/gethugothemes/hugo-modules/shortcodes/button"
 path = "github.com/gethugothemes/hugo-modules/shortcodes/notice"
 
 [[imports]]
+path = "github.com/gethugothemes/hugo-modules/shortcodes/mermaid"
+
+[[imports]]
 path = "github.com/gethugothemes/hugo-modules/seo-tools/basic-seo"
 
 [[imports]]
@@ -82,6 +89,9 @@ path = "github.com/gethugothemes/hugo-modules/seo-tools/site-verifications"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/components/open-remark"
 
 # [[imports]]
 # path = "github.com/gethugothemes/hugo-modules/seo-tools/baidu-analytics"
@@ -94,6 +104,3 @@ path = "github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager"
 
 # [[imports]]
 # path = "github.com/gethugothemes/hugo-modules/seo-tools/counter-analytics"
-
-[[imports]]
-path = "github.com/hugomods/mermaid"

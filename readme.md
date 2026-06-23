@@ -5,12 +5,14 @@
 <p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
 <p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
 
-<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a>
+<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a> |   <a target="_blank" href="https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate">
+    <img src="https://sitepins.com/button.svg" alt="One Click Deploy With Sitepins">
+  </a>
 </h2>
 
 <p align="center">
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.126.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.126.0&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.158.0" alt="Contributors">
+    <img alt="hugo version" src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.158.0&color=f00&logo=hugo" />
   </a>
 
   <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
@@ -25,6 +27,28 @@
     <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors">
   </a>
 </p>
+
+## Table of Contents
+
+- [What's Included](#-whats-included)
+  - [Key Features](#-key-features)
+  - [15+ Pre-designed Pages](#-15-pre-designed-pages)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+  - [Prerequisites](#-prerequisites)
+  - [Project Setup](#-project-setup)
+  - [Install Dependencies](#-install-dependencies)
+  - [Development Command](#-development-command)
+- [Customization](#-customization)
+  - [Site Config](#-site-config)
+  - [Site Params](#-site-params)
+  - [Colors and Fonts](#-colors-and-fonts)
+  - [Social Links](#-social-links)
+- [Advanced Usage](#-advanced-usage)
+- [Build And Deploy](#-build-and-deploy)
+- [Guide to Staying Compliant](#-guide-to-staying-compliant)
+- [Showcase](#-showcase)
+- [Need Customization?](#-need-customization)
 
 ## 🎁 What's Included
 
@@ -41,7 +65,7 @@ We have included almost everything you need to start your Hugo project. Let's se
 - 📞 Support contact form
 - 📱 Fully responsive
 - 📝 Write and update content in Markdown
-- 💬 Disqus Comment
+- 💬 Open-Remark Comment
 - 🔳 Syntax Highlighting
 
 ### 📄 15+ Pre-designed Pages
@@ -83,7 +107,7 @@ We have included almost everything you need to start your Hugo project. Let's se
 
 First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
 
-### ⚙️ Prerequisites
+### ⚙ Prerequisites
 
 To start using this template, you need to have some prerequisites installed on your machine.
 
@@ -175,6 +199,16 @@ npm run remove-darkmode
 
 > **Note:** This command will work before running the `project-setup` script. If you have already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. Afterward, you can run `npm run project-setup` again.
 
+### 👉 Remove Multilingual
+
+If you want to remove multilingual from your project, you can use the following command to remove multilingual from your project.
+
+```bash
+npm run remove-multilang
+```
+
+> **Note:** This command will work before running the `project-setup` script. If you have already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. Afterward, you can run `npm run project-setup` again.
+
 ---
 
 ## 🚀 Build And Deploy
@@ -205,6 +239,20 @@ And if you want to host some other hosting platforms. Then you can build your pr
 
 ---
 
+<!-- edit with sitepins -->
+
+## 📝 Edit Content with CMS
+
+This template comes pre-configured with [**Sitepins**](https://sitepins.com?aff=hugoplate), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
+
+**How to get started:**
+
+Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
+
+  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate">
+    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
+  </a>
+
 ## 🔒 Guide to Staying Compliant
 
 ### 🐞 Reporting Issues
@@ -222,7 +270,7 @@ Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon
 
 ---
 
-## 🖼️ Showcase
+## 🌠 Showcase
 
 List of some projects people are building with [**Hugoplate**!](https://github.com/zeon-studio/hugoplate/discussions/207)
 Don't forget to add yours.

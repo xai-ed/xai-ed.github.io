@@ -10,22 +10,7 @@ builds
 package-lock.json
 public
 resources
-.hugo_build.lock
 jsconfig.json
-hugo_stats.json
 go.sum
 yarn.lock
-
-# Python Virtual Environment
-venv/
-env/
-.env/
-.venv/
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Local keynote promo assets
-Keynote/
+.hugo_build.lock

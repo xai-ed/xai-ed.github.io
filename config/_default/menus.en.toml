@@ -7,54 +7,57 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Call for Papers"
-url = "/cfp"
+name = "About"
+url = "/about"
 weight = 2
 
 [[main]]
-name = "Instructions"
+name = "Elements"
+url = "/elements"
 weight = 3
 
 [[main]]
-parent = "Instructions"
-name = "Submission"
-url = "/instructions/submission"
-weight = 1
-
-[[main]]
-parent = "Instructions"
-name = "Review guidelines"
-url = "/instructions/review_guidelines"
-weight = 2
-
-[[main]]
-name = "Schedule"
-url = "/schedule"
 weight = 4
+name = "Pages"
 
 [[main]]
-name = "Proceedings"
-url = "/proceedings"
-weight = 5
+parent = "Pages"
+name = "Blog"
+url = "/blog"
 
 [[main]]
-name = "Organizers"
-url = "/organizers"
-weight = 6
+parent = "Pages"
+name = "Contact"
+url = "/contact"
+
+[[main]]
+parent = "Pages"
+name = "Authors"
+url = "/authors"
+
+[[main]]
+parent = "Pages"
+name = "Categories"
+url = "/categories"
+
+[[main]]
+parent = "Pages"
+name = "404 Page"
+url = "/404"
+
 
 # footer menu
 [[footer]]
-name = "Home"
-url = "/"
+name = "About"
+url = "/about"
 weight = 1
 
 [[footer]]
-name = "Call for Papers"
-url = "/cfp"
+name = "Elements"
+url = "/elements"
 weight = 2
 
 [[footer]]
-name = "Schedule"
-url = "/schedule"
+name = "Privacy Policy"
+url = "/privacy-policy"
 weight = 3
-

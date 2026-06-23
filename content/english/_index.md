@@ -1,71 +1,53 @@
 ---
 # Banner
 banner:
-  title: "XAI-Ed 2026<br/>Demystifying AI in Education and Learning Analytics through Explainability, Agency, and Transparency"
-  content: |
-    <div style="text-align: center; font-size: 18px; margin-bottom: 10px;">
-      Third workshop on Explainable AI in Education, in the 16th International Conference on Learning Analytics & Knowledge (LAK 2026), Bergen, Norway<br/>
-      Monday 27 April 2026, 9:00 AM to 5:00 PM in person
-    </div>
-  keynote: |
-    <div class="keynote-announcement" role="region" aria-label="Workshop keynote announcement">
-      <img src="/images/benjamin_paassen.jpg" alt="Portrait of Prof. Dr. Benjamin Paaßen" loading="lazy" />
-      <div class="keynote-announcement-content">
-        <p class="keynote-announcement-label">Keynote Speaker</p>
-        <h3>Prof. Dr. Benjamin Paaßen</h3>
-        <p class="keynote-announcement-university">Bielefeld University</p>
-        <p class="keynote-announcement-title">From explainable to explaining systems - the role of social XAI in learning analytics and educational technology</p>
-        <div class="keynote-announcement-cta">
-          <a href="/schedule/#keynote-details" class="btn btn-primary btn-sm">Full keynote information</a>
-        </div>
-      </div>
-    </div>
+  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
+  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jump-start your Hugo project and save valuable time."
   image: "/images/banner.png"
-  #button:
-  #  enable: true
-  #  label: "Submit a Paper"
-  #  link: "https://easychair.org/conferences/?conf=xaied2026"
+  button:
+    enable: true
+    label: "Fork Deploy and Edit Online 🚀"
+    link: "https://app.sitepins.com/new/clone?name=Hugoplate&repository=https://github.com/zeon-studio/hugoplate?aff=hugoplate"
 
-# Sections
+# Features
 features:
-  - title: "Why XAI-Ed@LAK26?"
-    image: "/images/service-2.png"
-    content: "As artificial intelligence (AI) becomes deeply embedded in educational technologies and Learning Analytics (LA), the demand for transparency, trust, and fairness has never been greater. Yet, explainability remains an underexplored dimension of LA practice. Many analytics and AI models still operate as opaque “black boxes,” limiting educators’ and learners’ ability to interpret results, act upon insights, or evaluate fairness.\nThe XAI-Ed 2026 workshop responds to this challenge by positioning Explainable AI (XAI) and Explainable Learning Analytics (XLA) as essential enablers of trustworthy, participatory, and equitable education. It brings together researchers and practitioners to bridge the gap between algorithmic predictions and stakeholder understanding, linking technical advances in model interpretability with pedagogical principles, ethical responsibility, and institutional practice.\nThrough presentations, panels, and collaborative sessions, the workshop will explore approaches ranging from intrinsic and post-hoc explainability to the use of large language models (LLMs) for adaptive explanations. It will foreground issues of bias, accountability, evaluation, and compliance, and emphasize stakeholder-sensitive, actionable explanations that empower educators and learners to make informed decisions."
-
-  - title: "Workshop Goals and Objectives"
+  - title: "What's Included in Hugoplate"
     image: "/images/service-1.png"
-    content: "The overarching goal of XAI-Ed 2026 is to advance a shared agenda for human-centered, explainable learning analytics. Specifically, the workshop seeks to:"
+    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
     bulletpoints:
-      - "**Promote integrating explainability** into the core of **LA research and practice**, promoting interpretability and stakeholder empowerment rather than post-hoc justification."
-      - "**Foster interdisciplinary knowledge exchange** across computer science, pedagogy, ethics, and institutional policy to co-design explainable and trustworthy systems."
-      - "**Support equity and fairness** by discussing the identification and mitigation of  algorithmic bias in educational analytics."
-      - "Examine **evaluation methods for XAI and XLA**, including metrics for explanation faithfulness, usefulness, and usability."
-      - "Explore the **role of LLMs and generative AI** in producing **stakeholder-aware**, **personalized** explanations."
-      - "**Develop strategies for institutional adoption** of XAI-enabled learning analytics that align with educational values and regulatory frameworks."
+      - "10+ Pre-build pages"
+      - "95+ Google Pagespeed Score"
+      - "Build with Hugo and TailwindCSS for easy and customizable styling"
+      - "Fully responsive on all devices"
+      - "SEO-optimized for better search engine rankings"
+      - "**Open-source and free** for personal and commercial use"
+    button:
+      enable: false
+      label: "Get Started Now"
+      link: "#"
 
-
-  - title: "Expected Outcomes"
-    image: "/images/service-4.png"
-    content: "XAI-Ed 2026 aims to help advocate supporting learning analytics with a transparent, participatory, and ethically grounded practice, one that delivers not only accurate predictions but also actionable, explainable, and equitable insights that strengthen learner and educator agency. By the end of the workshop, participants will have:"
+  - title: "Discover the Key Features Of Hugo"
+    image: "/images/service-2.png"
+    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
-      - "A shared understanding of current challenges and opportunities in XAI and XLA."
-      - "Practical strategies for designing and evaluating stakeholder-sensitive explanations."
-      - "An understanding for the challenges and potentials of integrating explainability into institutional analytics and policy frameworks."
-      - "New collaborative connections across technical, pedagogical, and policy domains."
-    
-  - title: "Call for Papers"
+      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
+      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
+      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+    button:
+      enable: true
+      label: "Get Started Now"
+      link: "https://github.com/zeon-studio/hugoplate"
+
+  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
     image: "/images/service-3.png"
-    content: "We welcome research and practitioner contributions to the workshop, as full papers or short ones (positional papers, conceptual papers, or practitioner reports). Contributions are invited on (but not limited to) the following topics. More details on the CfP and the submission [here](https://easychair.org/conferences/?conf=xaied2026)"
+    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
     bulletpoints:
-      - "Explainability and transparency in learning analytics"
-      - "Evaluation metrics and frameworks for educational XAI/XLA"
-      - "Pedagogical and cognitive foundations of explanations"
-      - "Stakeholder-sensitive explanation design and user evaluation"
-      - "Fairness, bias, and accountability in AI-enabled LA systems"
-      - "Institutional and policy challenges in adopting XAI and XLA"
-      - "Ethical, legal, and regulatory aspects of transparency and explainability in LA"
-      - "Role of LLMs and generative AI in supporting explainability and learner reflection in LA"
-      - "Case studies, prototypes, and empirical findings demonstrating XAI/XLA in educational contexts"
-
-
+      - "Instantly load static sites for better user experience and SEO."
+      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
+      - "Use any front-end library or framework, or build custom components, for any project size."
+      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+    button:
+      enable: false
+      label: ""
+      link: ""
 ---
