@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        {{ range .Pages.ByWeight }}
+          <div class="mb-8 md:col-6 lg:col-4">
+            <div class="bg-body dark:bg-darkmode-body h-full rounded-lg border border-border p-6 dark:border-darkmode-border">
+              {{ with .Params.logo }}
+                {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Class" "mb-6 w-full rounded") }}
+              {{ end }}
+              <h4 class="mb-2">
+                <a href="{{ .Params.external_url }}">{{ .Params.event | default .Title }}</a>
+              </h4>
+              <ul class="mb-4 text-text dark:text-darkmode-text">
+                {{ with .Params.dates }}<li><i class="fa-regular fa-calendar mr-2"></i>{{ . }}</li>{{ end }}
+                {{ with .Params.venue }}<li><i class="fa-regular fa-map mr-2"></i>{{ . }}</li>{{ end }}
+                {{ with .Params.status }}<li><i class="fa-regular fa-circle-dot mr-2"></i>{{ . | humanize }}</li>{{ end }}
+              </ul>
+              {{ with .Params.summary }}<p class="mb-6">{{ . }}</p>{{ end }}
+              <a class="btn btn-outline-primary btn-sm" href="{{ .Params.external_url }}">
+                Visit site
+              </a>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}
