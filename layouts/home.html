@@ -12,7 +12,12 @@
             {{ with .buttons }}
               <div class="flex flex-wrap justify-center gap-4">
                 {{ range . }}
-                  <a class="btn btn-primary" href="{{ .link | relURL }}">{{ .label }}</a>
+                  <a
+                    class="btn btn-primary"
+                    href="{{ .link | relURL }}"
+                    {{ if strings.HasPrefix .link "http" }}target="_blank" rel="noopener"{{ end }}>
+                    {{ .label }}
+                  </a>
                 {{ end }}
               </div>
             {{ end }}

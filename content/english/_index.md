@@ -7,6 +7,8 @@ banner:
       link: "/editions/"
     - label: "Latest news"
       link: "/blog/"
+    - label: "Join our Discord"
+      link: "#"   # TODO: replace with the Discord invite URL
 ---
 
 ## About the community
