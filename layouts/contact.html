@@ -1,0 +1,134 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row">
+        <div class="md:col-10 lg:col-6 mx-auto">
+          {{/*
+            Dual FormSubmit: JS posts the submission to BOTH endpoints below
+            (one per recipient) via FormSubmit's AJAX API, so each address can
+            be its own alias and stays hidden from the page source.
+            Swap the e-mail in each /ajax/<…> for its FormSubmit alias once you
+            have it from the activation e-mail. Each address activates once.
+            No-JS fallback: the form's `action` posts to the primary recipient.
+          */}}
+          <form
+            id="contact-form"
+            action="{{ site.Params.contact_form_action }}"
+            method="POST">
+            <input type="hidden" name="_subject" value="New XAI-ED website contact" />
+            <input type="hidden" name="_template" value="table" />
+            <!-- honeypot: hidden from humans, traps bots -->
+            <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" />
+            <div class="mb-6">
+              <label for="name" class="form-label">
+                {{ T "full-name" | default "Full Name" }} <span class="text-red-500">*</span>
+              </label>
+              <input
+                id="name"
+                name="name"
+                class="form-input"
+                placeholder="{{ T "john-doe" | default "John Doe" }}"
+                type="text"
+                required />
+            </div>
+            <div class="mb-6">
+              <label for="email" class="form-label">
+                {{ T "working-mail" | default "E-mail" }} <span class="text-red-500">*</span>
+              </label>
+              <input
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="{{ T "john-doe-email" | default "john.doe@email.com" }}"
+                type="email"
+                required />
+            </div>
+            <div class="mb-6">
+              <label for="message" class="form-label">
+                {{ T "anything-else" | default "Your message" }} <span class="text-red-500">*</span>
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-input"
+                placeholder="{{ T "message-goes-here" | default "Message goes here..." }}"
+                rows="8"
+                required></textarea>
+            </div>
+            <div class="mb-6">
+              <label class="flex items-start gap-2 text-sm" for="consent">
+                <input
+                  id="consent"
+                  name="consent"
+                  type="checkbox"
+                  class="mt-1"
+                  required />
+                <span>
+                  I agree that the name, e-mail address and message I provide are
+                  used solely to process and respond to this enquiry. This data is
+                  not stored for longer than necessary for that purpose, and is not
+                  used or shared for any other reason. <span class="text-red-500">*</span>
+                </span>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">{{ T "submit" | default "Submit" }}</button>
+            <p id="contact-status" class="mt-4 hidden"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      var form = document.getElementById("contact-form");
+      if (!form) return;
+      // One FormSubmit AJAX endpoint per recipient. Replace each address with
+      // its FormSubmit alias to hide it from the page source.
+      var ENDPOINTS = [
+        "https://formsubmit.co/ajax/jakub.kuzilek@fernuni-hagen.de",
+        // "https://formsubmit.co/ajax/rasheed@studiumdigitale.uni-frankfurt.de",
+      ];
+      var status = document.getElementById("contact-status");
+      var button = form.querySelector("button[type=submit]");
+
+      function show(message, ok) {
+        status.textContent = message;
+        status.classList.remove("hidden");
+        status.classList.toggle("text-green-600", ok);
+        status.classList.toggle("text-red-500", !ok);
+      }
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        button.disabled = true;
+        var data = new FormData(form);
+        Promise.all(
+          ENDPOINTS.map(function (url) {
+            return fetch(url, {
+              method: "POST",
+              body: data,
+              headers: { Accept: "application/json" },
+            }).then(function (response) {
+              if (!response.ok) throw new Error("request failed");
+              return response.json();
+            });
+          }),
+        )
+          .then(function () {
+            form.reset();
+            show("Thanks — your message was sent.", true);
+          })
+          .catch(function () {
+            show("Sorry, something went wrong. Please e-mail us directly.", false);
+          })
+          .finally(function () {
+            button.disabled = false;
+          });
+      });
+    })();
+  </script>
+{{ end }}
