@@ -1,0 +1,77 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  {{ $current := where .RegularPages "Params.alumni" "!=" true }}
+  {{ $alumni := where .RegularPages "Params.alumni" true }}
+
+  <!-- People -->
+  <section class="section pt-[10px]">
+    <div class="container">
+      <div class="row">
+        {{ range $current.ByWeight }}
+          <div class="md:col-6 lg:col-3 mb-14">
+            <div class="bg-light dark:bg-darkmode-light h-full rounded p-8 text-center">
+              <a href="{{ .RelPermalink }}">
+                {{ with .Params.image }}
+                  {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Class" "mx-auto mb-6 rounded" "Size" "120x120") }}
+                {{ end }}
+                <h4 class="mb-1">{{ .Title }}</h4>
+              </a>
+              {{ with .Params.affiliation }}
+                <p class="text-text-light dark:text-darkmode-text-light mb-3 text-sm">{{ . | safeHTML }}</p>
+              {{ end }}
+              <ul class="social-icons">
+                {{ range .Params.social }}
+                  <li>
+                    <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow">
+                      <span class="sr-only">{{ .name }}</span>
+                      <i class="{{ .icon }}"></i>
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /People -->
+
+  {{ with $alumni }}
+    <!-- Alumni -->
+    <section class="section pt-0">
+      <div class="container">
+        <h2 class="h3 mb-12 text-center">Alumni</h2>
+        <div class="row">
+          {{ range .ByWeight }}
+            <div class="md:col-6 lg:col-3 mb-14">
+              <div class="bg-light dark:bg-darkmode-light h-full rounded p-8 text-center">
+                <a href="{{ .RelPermalink }}">
+                  {{ with .Params.image }}
+                    {{ partial "image" (dict "Src" . "Context" $.Page "Alt" $.Title "Class" "mx-auto mb-6 rounded" "Size" "120x120") }}
+                  {{ end }}
+                  <h4 class="mb-1">{{ .Title }}</h4>
+                </a>
+                {{ with .Params.affiliation }}
+                  <p class="text-text-light dark:text-darkmode-text-light mb-3 text-sm">{{ . | safeHTML }}</p>
+                {{ end }}
+                <ul class="social-icons">
+                  {{ range .Params.social }}
+                    <li>
+                      <a href="{{ .link | safeURL }}" target="_blank" rel="noopener nofollow">
+                        <span class="sr-only">{{ .name }}</span>
+                        <i class="{{ .icon }}"></i>
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    <!-- /Alumni -->
+  {{ end }}
+{{ end }}

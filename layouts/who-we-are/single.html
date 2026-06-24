@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <section class="section-sm pb-0">
+    <div class="container">
+      <div
+        class="row border-border dark:border-darkmode-border justify-center border-b pb-14">
+        <div class="lg:col-6 text-center">
+          {{ $image:= .Params.image }}
+          {{ if $image }}
+            {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mx-auto rounded" "Size" "200x200") }}
+          {{ else if .Params.email }}
+            <img
+              class="mx-auto rounded"
+              alt="{{ .Title }}"
+              height="200"
+              width="200"
+              src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=200&d=identicon" />
+          {{ end }}
+          <h1 class="h3 mt-10">{{ .Title }}</h1>
+          {{ with .Params.affiliation }}
+            <p class="text-text-light dark:text-darkmode-text-light mt-2">{{ replaceRE "<br\\s*/?>.*" "" . | safeHTML }}</p>
+          {{ end }}
+          {{ with .Content }}
+            <div class="content mt-6 text-left">{{ . }}</div>
+          {{ end }}
+          <ul class="social-icons mt-10">
+            {{ range .Params.social }}
+              <li>
+                <a
+                  href="{{ .link | safeURL }}"
+                  target="_blank"
+                  rel="noopener nofollow">
+                  <span class="sr-only">{{ .name }}</span>
+                  <i class="{{ .icon }}"></i>
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

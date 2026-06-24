@@ -17,8 +17,8 @@ url = "/blog"
 weight = 3
 
 [[main]]
-name = "People"
-url = "/authors"
+name = "Who We Are"
+url = "/who-we-are"
 weight = 4
 
 [[main]]
