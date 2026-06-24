@@ -1,0 +1,89 @@
+{{ define "main" }}
+  <!-- Hero -->
+  {{ with .Params.banner }}
+    <section class="section pt-14">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="md:col-10 lg:col-8 text-center">
+            <h1 class="mb-4 text-h3 lg:text-h1">{{ .title | markdownify }}</h1>
+            {{ with .content }}
+              <p class="mb-8 text-lg">{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with .buttons }}
+              <div class="flex flex-wrap justify-center gap-4">
+                {{ range . }}
+                  <a class="btn btn-primary" href="{{ .link | relURL }}">{{ .label }}</a>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Hero -->
+
+  <!-- Introduction -->
+  {{ with .Content }}
+    <section class="section-sm pt-0">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="content lg:col-8">{{ . }}</div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Introduction -->
+
+  <!-- Upcoming events -->
+  {{ $upcoming := where (where site.RegularPages "Section" "editions") "Params.status" "upcoming" }}
+  {{ with $upcoming.ByWeight }}
+    <section class="section-sm bg-gradient">
+      <div class="container">
+        <h2 class="h3 mb-12 text-center">Upcoming events</h2>
+        <div class="row justify-center">
+          {{ range first 2 . }}
+            <div class="mb-8 md:col-6 lg:col-5">
+              <div class="bg-body dark:bg-darkmode-body border-border dark:border-darkmode-border h-full rounded-lg border p-6">
+                <h4 class="mb-2">
+                  <a href="{{ .Params.external_url }}">{{ .Params.event | default .Title }}</a>
+                </h4>
+                <ul class="text-text-light dark:text-darkmode-text-light mb-4">
+                  {{ with .Params.dates }}<li><i class="fa-regular fa-calendar mr-2"></i>{{ . }}</li>{{ end }}
+                  {{ with .Params.venue }}<li><i class="fa-regular fa-map mr-2"></i>{{ . }}</li>{{ end }}
+                </ul>
+                {{ with .Params.summary }}<p class="mb-6">{{ . }}</p>{{ end }}
+                <a class="btn btn-outline-primary btn-sm" href="{{ .Params.external_url }}">Visit site</a>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+        <div class="mt-6 text-center">
+          <a class="btn btn-outline-primary btn-sm" href="{{ "/editions/" | relURL }}">All editions</a>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Upcoming events -->
+
+  <!-- Latest news -->
+  {{ $news := first 2 (where site.RegularPages "Section" "blog") }}
+  {{ with $news }}
+    <section class="section-sm">
+      <div class="container">
+        <h2 class="h3 mb-12 text-center">Latest news</h2>
+        <div class="row justify-center">
+          {{ range . }}
+            <div class="mb-8 md:col-6 lg:col-5">
+              {{ partial "components/blog-card" . }}
+            </div>
+          {{ end }}
+        </div>
+        <div class="mt-6 text-center">
+          <a class="btn btn-outline-primary btn-sm" href="{{ "/blog/" | relURL }}">All news</a>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Latest news -->
+{{ end }}
