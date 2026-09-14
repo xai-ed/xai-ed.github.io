@@ -5,6 +5,8 @@ banner:
   buttons:
     - label: "Explore editions"
       link: "/editions/"
+    - label: "Browse publications"
+      link: "/publications/"
     - label: "Latest news"
       link: "/blog/"
     - label: "Join our Discord"
