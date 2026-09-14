@@ -43,8 +43,10 @@ editions:
           Cross-Discipline Transfer Readiness
         pdf: "/papers/XAI-Ed_2026_paper_1.pdf"
 
-  # Template for an older edition — copy, fill in, place above this comment
-  # (newest first) and keep the papers list in presentation order.
+  # Template for a further edition — copy, fill in, and insert it by date:
+  # an older edition goes below the ones already listed (just above this
+  # comment), a newer one at the top of the file. Keep the papers list in
+  # presentation order.
   #
   # - edition: '<Workshop name>'
   #   venue: '<City, Country>'
