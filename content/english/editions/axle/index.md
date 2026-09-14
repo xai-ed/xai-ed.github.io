@@ -3,7 +3,7 @@ title: "AXLE — Festival of Learning 2026"
 event: "AXLE @ Festival of Learning 2026"
 dates: "27 June 2026"
 venue: "COEX Center, Seoul, Republic of Korea"
-status: "upcoming"    # upcoming | past
+status: "past"        # upcoming | past
 external_url: "https://www.xai-ed.net/AXLE/"
 # logo: "logo.png"    # drop a bundled image here, then uncomment
 weight: 2
