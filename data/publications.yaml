@@ -1,0 +1,57 @@
+# Papers presented at XAI-ED workshops.
+# Source of truth for /publications/ and the homepage "Latest publications" band.
+# Keep editions newest first — the homepage features the first entry.
+# PDFs live in static/papers/ ; a file at static/papers/FILE.pdf is linked as /papers/FILE.pdf.
+editions:
+  - edition: "XAI-ED @ LAK26"
+    venue: "Bergen, Norway"
+    dates: "27 April 2026"
+    edition_url: "/editions/lak26/"
+    papers:
+      - authors: "Daniel Mora Melanchthon and Andrea Horbach"
+        title: >-
+          How reliable is that explanation? Intrinsic Evaluation of XAI methods
+          in Automated Essay Scoring models
+        pdf: "/papers/XAI-Ed_2026_paper_10.pdf"
+      - authors: "Rania Ait Chabane, Armelle Brun and Azim Roussanaly"
+        title: >-
+          Uncertainty-Aware Knowledge Tracing: Towards the Use of Subjective Logic
+        pdf: "/papers/XAI-Ed_2026_paper_11.pdf"
+      - authors: "Semyon Bosonogov and Alena Suvorova"
+        title: >-
+          Problem of Overtrust in XAI Tools for Educational Data: Analysis of LLM
+          Interpretations
+        pdf: "/papers/XAI-Ed_2026_paper_6.pdf"
+      - authors: "Reet Kasepalu, Kairit Tammets, Tobias Ley and Mutlu Cukurova"
+        title: >-
+          AI-Supported Educational Decision-Making: Aligning Teacher Expertise
+          Development and AI Teaming Levels
+        pdf: "/papers/XAI-Ed_2026_paper_5.pdf"
+      - authors: "Grzegorz Meller, Cédric Kestens and Tinne De Laet"
+        title: >-
+          Layered Explainability for Advisor Support: A Visual-Conversational
+          Interface for Predictive Learning Analytics
+        pdf: "/papers/XAI-Ed_2026_paper_13.pdf"
+      - authors: "Md Biplob Hosen, Houbing Herbert Song, Shuling Yang and Lujie Karen Chen"
+        title: >-
+          NeuroSymRead: Symbolic Governance of Neural Generation for Adaptive
+          Dialogic Reading
+        pdf: "/papers/XAI-Ed_2026_paper_14.pdf"
+      - authors: "Mehar Ali, Awais Ilyas Baig, Utsaha Joshi and Ekaterina Kuzmina"
+        title: >-
+          TransitionIQ: An Explainable Learning Analytics Prototype for
+          Cross-Discipline Transfer Readiness
+        pdf: "/papers/XAI-Ed_2026_paper_1.pdf"
+
+  # Template for an older edition — copy, fill in, place above this comment
+  # (newest first) and keep the papers list in presentation order.
+  #
+  # - edition: '<Workshop name>'
+  #   venue: '<City, Country>'
+  #   dates: '<D Month YYYY>'
+  #   edition_url: '/editions/<slug>/'
+  #   papers:
+  #     - authors: '<Author One, Author Two and Author Three>'
+  #       title: >-
+  #         <Paper title>
+  #       pdf: '/papers/<FILE>.pdf'

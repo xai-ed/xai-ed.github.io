@@ -71,6 +71,53 @@
   {{ end }}
   <!-- /Upcoming events -->
 
+  <!-- Latest publications -->
+  {{ with index hugo.Data.publications.editions 0 }}
+    <section class="section-sm bg-gradient">
+      <div class="container">
+        <h2 class="h3 mb-2 text-center">Latest publications</h2>
+        <p class="text-text-light dark:text-darkmode-text-light mb-12 text-center">
+          {{ .edition }}{{ with .venue }} — {{ . }}{{ end }}{{ with .dates }}, {{ . }}{{ end }}
+        </p>
+        <div class="row justify-center" id="featured-papers">
+          {{ range $index, $paper := .papers }}
+            <div class="mb-8 md:col-6 lg:col-5" data-featured-paper {{ if ge $index 2 }}hidden{{ end }}>
+              <div class="bg-body dark:bg-darkmode-body border-border dark:border-darkmode-border h-full rounded-lg border p-6">
+                <h4 class="mb-2">
+                  <a href="{{ $paper.pdf | relURL }}">{{ $paper.title }}</a>
+                </h4>
+                <p class="text-text-light dark:text-darkmode-text-light mb-6">{{ $paper.authors }}</p>
+                <a class="btn btn-outline-primary btn-sm" href="{{ $paper.pdf | relURL }}">Read paper</a>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+        {{/* Pick two papers per visit; without JS the first two stay visible. */}}
+        <script>
+          (function () {
+            var cards = Array.prototype.slice.call(
+              document.querySelectorAll("#featured-papers [data-featured-paper]"),
+            );
+            if (cards.length < 3) return;
+            for (var i = cards.length - 1; i > 0; i--) {
+              var j = Math.floor(Math.random() * (i + 1));
+              var swap = cards[i];
+              cards[i] = cards[j];
+              cards[j] = swap;
+            }
+            cards.forEach(function (card, index) {
+              card.hidden = index >= 2;
+            });
+          })();
+        </script>
+        <div class="mt-6 text-center">
+          <a class="btn btn-outline-primary btn-sm" href="{{ "/publications/" | relURL }}">All publications</a>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Latest publications -->
+
   <!-- Latest news -->
   {{ $news := first 2 (where site.RegularPages "Section" "blog") }}
   {{ with $news }}

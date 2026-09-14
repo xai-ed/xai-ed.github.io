@@ -1,0 +1,49 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          {{ with .Content }}
+            <div class="content mb-12">{{ . }}</div>
+          {{ end }}
+
+          {{ range hugo.Data.publications.editions }}
+            <h2 class="h4 mb-2">{{ .edition }}</h2>
+            <p class="text-text-light dark:text-darkmode-text-light mb-6">
+              {{ with .dates }}
+                <i class="fa-regular fa-calendar mr-2"></i>{{ . }}
+              {{ end }}
+              {{ with .venue }}
+                <i class="fa-regular fa-map ml-4 mr-2"></i>{{ . }}
+              {{ end }}
+              {{ with .edition_url }}
+                <a class="ml-4" href="{{ . | relURL }}">Edition page</a>
+              {{ end }}
+            </p>
+            <ul class="mb-12">
+              {{ range .papers }}
+                <li
+                  class="border-border dark:border-darkmode-border mb-4 border-b pb-4">
+                  <span class="text-text-light dark:text-darkmode-text-light"
+                    >{{ .authors }}.</span
+                  >
+                  <strong>&ldquo;{{ .title }}&rdquo;</strong>
+                  {{ with .pdf }}
+                    <a
+                      class="border-primary text-primary hover:bg-primary ml-1 inline-block whitespace-nowrap rounded border px-2 py-0.5 text-sm hover:text-white"
+                      href="{{ . | relURL }}">
+                      <i class="fa-regular fa-file-pdf mr-1"></i>paper
+                    </a>
+                  {{ end }}
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
