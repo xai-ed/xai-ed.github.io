@@ -7,24 +7,29 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Editions"
-url = "/editions"
+name = "News"
+url = "/blog"
 weight = 2
 
 [[main]]
-name = "News"
-url = "/blog"
+name = "Editions"
+url = "/editions"
 weight = 3
+
+[[main]]
+name = "Publications"
+url = "/publications"
+weight = 4
 
 [[main]]
 name = "Who We Are"
 url = "/who-we-are"
-weight = 4
+weight = 5
 
 [[main]]
 name = "Contact"
 url = "/contact"
-weight = 5
+weight = 6
 
 
 # footer menu
@@ -34,6 +39,11 @@ url = "/editions"
 weight = 1
 
 [[footer]]
+name = "Publications"
+url = "/publications"
+weight = 2
+
+[[footer]]
 name = "Contact"
 url = "/contact"
-weight = 2
+weight = 3
