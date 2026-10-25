@@ -40,6 +40,41 @@
   {{ end }}
   <!-- /Introduction -->
 
+  <!-- Next workshop banner: the nearest upcoming edition -->
+  {{ range first 1 (where (where site.RegularPages "Section" "editions") "Params.status" "upcoming").ByWeight }}
+    <section class="section-sm pt-0">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="lg:col-10">
+            <div
+              class="bg-dark dark:bg-darkmode-light dark:border-darkmode-border relative rounded-lg px-8 py-10 text-white md:px-12 dark:border">
+              <div class="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <p class="mb-3 text-sm font-semibold tracking-wider text-white/70 uppercase">
+                    <i class="fa-solid fa-bullhorn mr-2"></i>Next workshop
+                  </p>
+                  <h2 class="h3 mb-3 text-white">{{ .Params.event | default .Title }}</h2>
+                  {{ with .Params.tagline }}<p class="mb-4 text-lg text-white/85">{{ . }}</p>{{ end }}
+                  <ul class="flex flex-wrap gap-x-6 gap-y-1 text-white/70">
+                    {{ with .Params.dates }}<li><i class="fa-regular fa-calendar mr-2"></i>{{ . }}</li>{{ end }}
+                    {{ with .Params.venue }}<li><i class="fa-regular fa-map mr-2"></i>{{ . }}</li>{{ end }}
+                  </ul>
+                </div>
+                <a
+                  class="btn shrink-0 border-white bg-white text-dark hover:bg-transparent hover:text-white after:absolute after:inset-0"
+                  href="{{ .Params.external_url }}">
+                  Visit the workshop site
+                  <i class="fa-solid fa-arrow-right pl-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Next workshop banner -->
+
   <!-- Upcoming events -->
   {{ $upcoming := where (where site.RegularPages "Section" "editions") "Params.status" "upcoming" }}
   {{ with $upcoming.ByWeight }}
